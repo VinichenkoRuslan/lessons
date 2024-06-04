@@ -1,5 +1,7 @@
 .super-important.highlighted {
   background-color: red;
+}
+.highlighted {
   color: yellow;
 }
 
