@@ -11,7 +11,8 @@
 .some-button:active {
   border: 3px solid red;
 }
-.anchor:hover {
+.anchor:hover,
+.some-button:hover {
   font-size: 24px;
 }
 .some-button:disabled {
