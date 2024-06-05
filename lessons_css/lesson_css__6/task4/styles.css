@@ -12,7 +12,7 @@
   background: orange;
 }
 
-.to-be-learned h4 > code {
+.to-be-learned h3 + ul code {
   background: green;
 }
 #special1 + li > h4 code {
