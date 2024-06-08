@@ -2,4 +2,5 @@ div {
   border: solid 3px black;
   padding: 50px;
   background: aqua;
+  box-sizing: border-box;
 }
