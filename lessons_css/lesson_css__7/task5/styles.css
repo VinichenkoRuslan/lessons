@@ -31,7 +31,7 @@ input[type='text'] {
 }
 
 div:nth-child(5) p,
-div:nth-child(3) p {
+div:nth-child(3) p:not(:nth-child(1)) {
   background: yellow;
 }
 div:nth-child(5) p + p {
