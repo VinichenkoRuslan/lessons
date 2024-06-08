@@ -6,6 +6,7 @@ div {
   height: 140px;
   padding: 20px;
   margin: 50px 100px;
+  font-size: 24px;
   background: bisque;
   border-top: 10px solid firebrick;
   border-right: 20px solid chartreuse;
