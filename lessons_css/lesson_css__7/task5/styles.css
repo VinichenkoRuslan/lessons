@@ -29,12 +29,11 @@ div p {
 input[type='text'] {
   background: grey;
 }
+
+div:nth-child(5) p,
 div:nth-child(3) p {
   background: yellow;
 }
-/* div:nth-child(5) p {
-  background: yellow;
-} */
 div:nth-child(5) p + p {
   border: 5px solid white;
 }
