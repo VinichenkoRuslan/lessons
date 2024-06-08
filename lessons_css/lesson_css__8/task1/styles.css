@@ -1,0 +1,21 @@
+/* * {
+  box-sizing: border-box;
+} */
+body {
+  background: antiquewhite;
+}
+.box {
+  border: 8px solid black;
+  margin: 16px;
+  padding: 16px;
+  width: 512px;
+  height: 128px;
+}
+.content_box {
+  background: aquamarine;
+  box-sizing: content-box;
+}
+.border_box {
+  background: azure;
+  box-sizing: border-box;
+}
