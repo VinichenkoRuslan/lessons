@@ -15,9 +15,14 @@
 }
 .nav-item {
   color: white;
-  display: inline-block;
   margin-left: 16px;
+  display: inline-block;
 }
+.nav-item:nth-child(2),
+.nav-item:nth-child(3) {
+  margin-left: 56px;
+}
+
 .content {
   height: 5000px;
   background: beige;
