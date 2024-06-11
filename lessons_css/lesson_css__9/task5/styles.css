@@ -8,12 +8,10 @@
 }
 .navigation {
   height: 40px;
-  position: relative;
-  top: -16px;
-  /* background: red; */
 }
 .nav-list {
-  /* line-height: 40px; */
+  margin-top: 0;
+  line-height: 40px;
 }
 .nav-item {
   color: white;
@@ -27,7 +25,7 @@
 .head {
   width: 200px;
   height: 200px;
-  position: relative;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
