@@ -31,7 +31,6 @@
   height: 200px;
   position: relative;
   left: calc(50% - 100px);
-
   top: calc(50vh - 100px);
 
   background: aquamarine;
