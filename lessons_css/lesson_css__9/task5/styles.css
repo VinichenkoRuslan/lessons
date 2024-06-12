@@ -28,7 +28,8 @@
   height: 200px;
   position: relative;
   left: calc(50% - 100px);
-  top: 200px;
+
+  top: calc(50% - 100px);
 
   background: aquamarine;
 }
