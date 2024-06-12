@@ -10,8 +10,9 @@
   height: 40px;
 }
 .nav-list {
-  margin-top: 0;
   line-height: 40px;
+  margin-top: 0;
+  padding-left: 0;
 }
 .nav-item {
   color: white;
