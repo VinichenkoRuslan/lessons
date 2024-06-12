@@ -12,12 +12,14 @@
 .nav-list {
   line-height: 40px;
   margin-top: 0;
-  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 .nav-item {
   color: white;
   margin-left: 16px;
-  display: inline-block;
+  /* display: inline-block; */
+  float: left;
 }
 
 .content {
