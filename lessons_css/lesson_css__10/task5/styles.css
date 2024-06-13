@@ -2,7 +2,6 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
 header {
   text-align: center;
 }
@@ -15,4 +14,7 @@ header {
   margin: 8px;
   background-color: bisque;
   flex: 1 0 300px;
+  /* flex-shrink: 0;
+  flex-grow: 1;
+  flex-basis: 300px; */
 }
