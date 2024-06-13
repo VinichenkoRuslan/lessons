@@ -1,5 +1,5 @@
 body {
-  max-width: 1500px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -8,11 +8,11 @@ header {
 }
 .articles-list {
   display: flex;
-  flex-basis: 300px;
+  flex-wrap: wrap;
 }
 .article {
   padding: 16px;
   margin: 8px;
   background-color: bisque;
-  flex-basis: 300px;
+  flex: 1 0 300px;
 }
