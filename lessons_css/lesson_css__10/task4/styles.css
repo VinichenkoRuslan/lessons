@@ -4,7 +4,6 @@ body {
 }
 .block {
   height: 300px;
-  width: 10%;
 }
 .block_red {
   background-color: red;
