@@ -1,0 +1,16 @@
+.container {
+  font-size: 1em;
+}
+.list {
+  list-style: none;
+  font-size: 1.5em;
+}
+.first {
+  text-decoration: overline red solid;
+}
+.second {
+  text-decoration: line-through;
+}
+.third {
+  text-decoration: underline solid green;
+}
