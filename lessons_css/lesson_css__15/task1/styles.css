@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  display: flex;
+  margin: 50px 0px 50px 0px;
+}
+
+.main_painting {
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+}
+
+figure {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+figcaption {
+  line-height: 30px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.gallery-fig__painting1 {
+  filter: opacity(50%);
+}
+
+.gallery-fig__painting2 {
+  filter: blur(4px);
+}
+
+.gallery-fig__painting3 {
+  filter: invert(100%);
+}
