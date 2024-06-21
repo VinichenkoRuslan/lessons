@@ -10,7 +10,9 @@
 }
 
 .image-button {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
   background-color: bisque;
@@ -18,8 +20,8 @@
   font-size: 12px;
   font-weight: 700;
   opacity: 0.5;
-  text-align: center;
-  line-height: 50px;
+  /* text-align: center; */
+  /* line-height: 50px; */
   cursor: pointer;
   position: absolute;
   top: calc(50% - 25px);
