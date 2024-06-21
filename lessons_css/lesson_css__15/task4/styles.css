@@ -1,16 +1,14 @@
-* {
-  box-sizing: border-box;
-}
 .image-container {
   position: relative;
 }
+
 .image {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-  position: relative;
 }
+
 .image-button {
   width: 200px;
   background-color: bisque;
@@ -25,6 +23,7 @@
   top: calc(50% - 25px);
   left: calc(50% - 100px);
 }
+
 .image-button:hover {
   opacity: 1;
 }
