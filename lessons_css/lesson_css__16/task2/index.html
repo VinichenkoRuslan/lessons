@@ -17,32 +17,31 @@
   <body>
     <form action="#">
       <div>
-        <label>LastName</label>
+        <label for="lastname">LastName</label>
       </div>
       <div>
         <input
           id="lastname"
           type="text"
           name="lastName"
-          redonly
+          readonly
           value="Emerson"
         />
       </div>
       <div>
-        <label
-          >Age
-          <input
-            type="number"
-            name="age"
-            required
-            min="3"
-            max="10"
-            value="17"
-          />
-        </label>
+        <label for="age">Age</label>
+        <input
+          id="age"
+          type="number"
+          name="age"
+          required
+          min="3"
+          max="10"
+          value="17"
+        />
       </div>
       <div>
-        <input id="agree" type="checkbox" name="agree" />
+        <input id="agree" type="checkbox" name="agree" disabled />
         <label for="agree">Accept terms and conditions.</label>
       </div>
       <div class="choose-gender">
