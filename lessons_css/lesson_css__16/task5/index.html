@@ -60,11 +60,17 @@
       </div>
 
       <div class="languages">
-        <input type="radio" name="language" value="html" />
-        HTML
-        <input type="radio" name="language" value="css" checked /> CSS
-        <input type="radio" name="language" value="javascript" />
-        JavaScript
+        <input type="radio" id="html" name="language" value="html" />
+        <label for="html"> HTML</label>
+        <input type="radio" id="css" name="language" value="css" checked />
+        <label for="css">CSS</label>
+        <input
+          type="radio"
+          id="javascript"
+          name="language"
+          value="javascript"
+        />
+        <label for="javascript">JavaScript</label>
       </div>
       <div class="form-control">
         <input type="range" name="learningProgress" value="30" />
