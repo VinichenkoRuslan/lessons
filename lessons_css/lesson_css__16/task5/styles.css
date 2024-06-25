@@ -9,5 +9,7 @@
 }
 .languages {
   display: inline-block;
+}
+.languages input {
   margin: 8px;
 }
