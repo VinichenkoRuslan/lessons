@@ -9,11 +9,13 @@
   justify-content: center;
 }
 .spinner {
+  position: absolute;
 }
 .spinner-text {
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
+  /* position: relative; */
   animation: blinking 2s;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -24,7 +26,7 @@
   height: 4px;
   border-radius: 2px;
   background: black;
-  position: relative;
+  position: absolute;
   animation: blinking 2s, moving 2s;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -38,6 +40,7 @@
   }
   to {
     left: 70px;
+    opacity: 0;
   }
 }
 
