@@ -20,7 +20,7 @@
   line-height: 100px;
   text-transform: uppercase;
   position: absolute;
-  left: calc(50vw - 100px);
+  left: calc(50vw - 125px);
   animation: transform 2s;
   animation-timing-function: ease;
   animation-direction: alternate;
