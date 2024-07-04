@@ -1,9 +1,13 @@
 * {
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  height: 100vh;
+}
 
 .container {
-  margin: 0 auto;
+  margin: auto;
   display: flex;
 }
 .square {
