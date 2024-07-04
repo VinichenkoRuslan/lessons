@@ -35,7 +35,7 @@
   background-color: #0ff;
 }
 
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 600px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@
   }
 }
 
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 900px) {
   .main-container {
     display: flex;
     flex-direction: row;
