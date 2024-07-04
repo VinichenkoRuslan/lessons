@@ -64,7 +64,8 @@ html {
 .nav-list-link {
   display: block;
   width: 100%;
-  padding: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   text-decoration: none;
   color: #fff;
   overflow: hidden;
