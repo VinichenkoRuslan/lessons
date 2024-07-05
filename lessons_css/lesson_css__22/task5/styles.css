@@ -93,9 +93,14 @@ img {
     flex-direction: column;
   }
   .main-container,
-  .section,
   .news {
     width: 100%;
+  }
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 80%;
   }
 }
 
