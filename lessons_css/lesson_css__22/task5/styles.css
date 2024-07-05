@@ -58,8 +58,8 @@ img {
   text-overflow: ellipsis;
 }
 .section {
-  width: 60%;
-  margin: 0 auto;
+  /* width: 60%;
+  margin: 0 auto; */
   padding: 0.5em;
   font-size: 1.25em;
 }
