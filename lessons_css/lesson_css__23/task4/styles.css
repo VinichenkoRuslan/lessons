@@ -9,18 +9,18 @@ html {
 .main-container {
   height: 100vh;
 }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 900px) {
   .main-container {
     display: flex;
   }
 }
 
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 600px) {
   .container {
     display: flex;
   }
 }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 900px) {
   .container {
     flex: 2;
   }
@@ -32,7 +32,7 @@ html {
   justify-content: center;
   height: 200px;
 }
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 600px) {
   .block {
     flex: 1;
   }
