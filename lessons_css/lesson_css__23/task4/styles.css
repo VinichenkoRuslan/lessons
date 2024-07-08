@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana;
+}
+
+.main-container {
+  height: 100vh;
+}
+@media screen and (min-width: 899px) {
+  .main-container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 599px) {
+  .container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 899px) {
+  .container {
+    flex: 2;
+  }
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+@media screen and (min-width: 599px) {
+  .block {
+    flex: 1;
+  }
+}
+.block.navigation {
+  background-color: #ff7f50;
+}
+.block.product {
+  background-color: #006400;
+}
+.block.news {
+  background-color: #0ff;
+}
+.block-elem {
+  text-transform: lowercase;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=styles.css.map */
